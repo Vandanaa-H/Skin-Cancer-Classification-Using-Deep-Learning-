@@ -112,25 +112,25 @@ Output: [Benign, Malignant, Normal]
 ```
 Skin Cancer Classification using Deep Learning/
 │
-├── 📁 skin_cancer_dataset/          # Dataset directory
-│   ├── 📁 train/                    # Training data (80%)
-│   │   ├── 📁 benign/               # Non-cancerous lesions
-│   │   ├── 📁 malignant/            # Cancerous lesions
-│   │   └── 📁 normal/               # Normal skin samples
-│   └── 📁 test/                     # Testing data (20%)
-│       ├── 📁 benign/
-│       ├── 📁 malignant/
-│       └── 📁 normal/
+├── skin_cancer_dataset/          # Dataset directory
+│   ├── train/                    # Training data (80%)
+│   │   ├── benign/               # Non-cancerous lesions
+│   │   ├── malignant/            # Cancerous lesions
+│   │   └── normal/               # Normal skin samples
+│   └── test/                     # Testing data (20%)
+│       ├── benign/
+│       ├── malignant/
+│       └── normal/
 │
-├── 📁 trained_model1/               # Model artifacts
-│   ├── 📄 trained_model1.keras     # Saved trained model
-│   └── 📁 __results___files/       # Training visualizations
+├── trained_model1/               # Model artifacts
+│   ├── trained_model1.keras     # Saved trained model
+│   └── __results___files/       # Training visualizations
 │
-├── 📄 app.py                       # Streamlit web application
-├── 📄 SkinCancerClassification.ipynb  # Training notebook
-├── 📄 requirements.txt             # Dependencies
-├── 📄 README.md                    # This file
-└── 📄 CONTEXT.md                   # Detailed documentation
+├── app.py                       # Streamlit web application
+├── SkinCancerClassification.ipynb  # Training notebook
+├── requirements.txt             # Dependencies
+├── README.md                    # This file
+└── CONTEXT.md                   # Detailed documentation
 ```
 
 ##  Dataset Information
