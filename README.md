@@ -1,4 +1,4 @@
-# 🩺 Skin Cancer Classification using Deep Learning
+#  Skin Cancer Classification using Deep Learning
 
 [![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://python.org)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange.svg)](https://tensorflow.org)
@@ -9,22 +9,22 @@
 
 ![Skin Cancer Classification Banner](https://via.placeholder.com/800x200/1d3557/ffffff?text=Skin+Cancer+Classification+using+Deep+Learning)
 
-## 🎯 Project Overview
+##  Project Overview
 
 This project implements a comprehensive deep learning solution for skin cancer classification that categorizes skin lesions into **Benign**, **Malignant**, and **Normal** categories using a custom-built Convolutional Neural Network. The project features SkinScan AI - a professional medical-grade web interface built with Streamlit, providing real-time skin analysis with a focus on user privacy and medical compliance.
 
-### ✨ Key Highlights
-- 🧠 **Custom CNN Model** - Built from scratch achieving high accuracy
-- 🖥️ **SkinScan AI Interface** - Professional medical-grade web application
-- 🔒 **Zero-Storage Architecture** - Complete privacy with local processing
-- ⚕️ **Medical Compliance** - Professional disclaimers and safety guidelines
-- 📱 **Responsive Design** - Optimized for all devices and screen sizes
+###  Key Highlights
+-  **Custom CNN Model** - Built from scratch achieving high accuracy
+-  **SkinScan AI Interface** - Professional medical-grade web application
+-  **Zero-Storage Architecture** - Complete privacy with local processing
+-  **Medical Compliance** - Professional disclaimers and safety guidelines
+-  **Responsive Design** - Optimized for all devices and screen sizes
 
-## 🚀 Live Demo
+##  Live Demo
 
 Try the application: [SkinScan AI Demo](your-deployment-url-here)
 
-## 📸 Screenshots
+##  Screenshots
 
 <table>
   <tr>
@@ -37,7 +37,7 @@ Try the application: [SkinScan AI Demo](your-deployment-url-here)
   </tr>
 </table>
 
-## 🛠️ Installation & Setup
+##  Installation & Setup
 
 ### Prerequisites
 - Python 3.11 or higher
@@ -66,7 +66,7 @@ Try the application: [SkinScan AI Demo](your-deployment-url-here)
    - Open your browser and navigate to `http://localhost:8501`
    - Upload a skin image and get instant AI analysis
 
-## 📊 Model Performance
+##  Model Performance
 
 | Metric | Score |
 |--------|-------|
@@ -86,28 +86,28 @@ Flatten → Dense(128) → Dense(3, softmax)
 Output: [Benign, Malignant, Normal]
 ```
 
-## 🎨 Web Application Features
+##  Web Application Features
 
-### 🏠 **Multi-Tab Interface**
+### **Multi-Tab Interface**
 - **Home**: Upload and analyze skin images
 - **How it Works**: Detailed AI process explanation
 - **Safety & Privacy**: Data security information
 - **Contact**: Support and feedback system
 
-### 🔐 **Privacy & Security**
+###  **Privacy & Security**
 - Zero-storage architecture
 - Local image processing
 - No external data transmission
 - Session-only data retention
 
-### 📱 **User Experience**
+###  **User Experience**
 - Drag-and-drop file upload
 - Real-time loading animations
 - Professional result cards
 - Color-coded classifications
 - Analysis history tracking
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 Skin Cancer Classification using Deep Learning/
@@ -133,7 +133,7 @@ Skin Cancer Classification using Deep Learning/
 └── 📄 CONTEXT.md                   # Detailed documentation
 ```
 
-## 🧬 Dataset Information
+##  Dataset Information
 
 ### Data Sources
 - **Malignant & Benign**: [Kaggle - Skin Cancer Dataset](https://www.kaggle.com/datasets/fanconic/skin-cancer-malignant-vs-benign)
@@ -144,7 +144,7 @@ Skin Cancer Classification using Deep Learning/
 - **Normalization**: Pixel values [0, 1]
 - **Augmentation**: Rotation, shift, shear, zoom, flip
 
-## 💻 Tech Stack
+##  Tech Stack
 
 <table>
   <tr>
@@ -159,7 +159,7 @@ Skin Cancer Classification using Deep Learning/
   </tr>
 </table>
 
-## 📖 Usage Guide
+##  Usage Guide
 
 ### For Model Training
 1. Open `SkinCancerClassification.ipynb` in Jupyter Notebook
@@ -174,15 +174,15 @@ Skin Cancer Classification using Deep Learning/
 4. Review results and recommendations
 5. **Always consult healthcare providers for medical decisions**
 
-## ⚠️ Important Medical Disclaimer
+##  Important Medical Disclaimer
 
-> **🏥 MEDICAL DISCLAIMER**
+> ** MEDICAL DISCLAIMER**
 > 
 > This application is for **informational and screening purposes only**. It is **NOT a substitute** for professional medical advice, diagnosis, or treatment. 
 > 
 > **Always consult qualified healthcare providers** regarding medical conditions and seek immediate medical attention for concerning skin changes.
 
-## 🤝 Contributing
+##  Contributing
 
 We welcome contributions! Please follow these steps:
 
@@ -192,32 +192,32 @@ We welcome contributions! Please follow these steps:
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 📞 Support & Contact
+##  Support & Contact
 
-### 🛠️ Technical Support
+###  Technical Support
 - **Email**: support@skinscanai.com
 - **Response Time**: Within 24 hours
 
-### 💡 Feedback & Suggestions
+###  Feedback & Suggestions
 - **Email**: feedback@skinscanai.com
 - Help us improve the platform!
 
-### 🏥 Medical Inquiries
+###  Medical Inquiries
 - **Email**: medical@skinscanai.com
 - **Note**: Not for emergency medical situations
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Dataset providers from Kaggle community
 - TensorFlow and Keras development teams
 - Streamlit for the amazing web framework
 - Medical community for guidance on compliance
 
-## 📈 Future Enhancements
+##  Future Enhancements
 
 - [ ] Mobile application development
 - [ ] Advanced model architectures (ResNet, EfficientNet)
@@ -230,8 +230,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div align="center">
 
-**⚕️ Always prioritize professional medical consultation over AI analysis results.**
-
-Made with ❤️ for better healthcare through AI
+** Always prioritize professional medical consultation over AI analysis results.**
 
 </div>
