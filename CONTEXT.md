@@ -1,9 +1,9 @@
 # Skin Cancer Classification using Deep Learning
 
-## 🔬 Project Overview  
+##  Project Overview  
 This project implements an **AI-powered skin cancer classification system** using deep learning to classify skin lesions into **Benign**, **Malignant**, and **Normal** categories. The project features a custom CNN model trained from scratch and a professional-grade web application for real-time skin analysis.
 
-### ✨ Key Features
+###  Key Features
 - **Advanced CNN Model**: Custom-built deep learning model achieving ~86% accuracy
 - **Professional Web Interface**: Streamlit-based application with medical-grade UI/UX
 - **Real-time Analysis**: Instant skin lesion classification with professional feedback
@@ -13,35 +13,35 @@ This project implements an **AI-powered skin cancer classification system** usin
 
 ---
 
-## 📂 Project Structure  
+##  Project Structure  
 
 ```
 Skin Cancer Classification using Deep Learning/
 │
-├── 📁 skin_cancer_dataset/          # Organized dataset directory
-│   ├── 📁 train/                    # Training dataset (80%)
-│   │   ├── 📁 benign/               # Non-cancerous lesions
-│   │   ├── 📁 malignant/            # Cancerous lesions
-│   │   └── 📁 normal/               # Normal skin samples
-│   └── 📁 test/                     # Testing dataset (20%)
-│       ├── 📁 benign/
-│       ├── 📁 malignant/
-│       └── 📁 normal/
+├──  skin_cancer_dataset/          # Organized dataset directory
+│   ├──  train/                    # Training dataset (80%)
+│   │   ├──  benign/               # Non-cancerous lesions
+│   │   ├──  malignant/            # Cancerous lesions
+│   │   └──  normal/               # Normal skin samples
+│   └──  test/                     # Testing dataset (20%)
+│       ├──  benign/
+│       ├──  malignant/
+│       └──  normal/
 │
-├── 📁 trained_model1/               # Model artifacts
-│   ├── 📄 trained_model1.keras     # Saved trained model
-│   └── 📁 __results___files/       # Training visualizations
+├──  trained_model1/               # Model artifacts
+│   ├──  trained_model1.keras     # Saved trained model
+│   └──  __results___files/       # Training visualizations
 │
-├── 📄 app.py                       # Professional Streamlit web application
-├── 📄 SkinCancerClassification.ipynb  # Model training & evaluation notebook
-├── 📄 CONTEXT.md                   # Project documentation
-├── 📄 README.md                    # GitHub documentation
-└── 📄 requirements.txt             # Python dependencies
+├──  app.py                       # Professional Streamlit web application
+├──  SkinCancerClassification.ipynb  # Model training & evaluation notebook
+├──  CONTEXT.md                   # Project documentation
+├──  README.md                    # GitHub documentation
+└──  requirements.txt             # Python dependencies
 ```
 
 ---
 
-## 📊 Dataset Information  
+##  Dataset Information  
 
 ### Data Sources
 1. **Malignant & Benign Lesions**:  
@@ -62,7 +62,7 @@ Skin Cancer Classification using Deep Learning/
 
 ---
 
-## 🧠 Model Architecture  
+##  Model Architecture  
 
 ### Custom CNN Design
 ```python
@@ -95,7 +95,7 @@ Sequential([
 
 ---
 
-## 📈 Model Performance  
+##  Model Performance  
 
 ### Evaluation Metrics
 - **Overall Accuracy**: ~86%
@@ -110,37 +110,37 @@ Sequential([
 
 ---
 
-## 🖥️ Web Application Features  
+##  Web Application Features  
 
 ### SkinScan AI Interface
 The Streamlit application (`app.py`) provides a professional medical-grade interface with:
 
-#### 🎨 **Professional Design**
+#### **Professional Design**
 - Medical-themed color scheme (#1d3557, #457b9d, #e63946)
 - Gradient backgrounds and professional styling
 - Full-width responsive layout
 - Custom CSS for professional appearance
 
-#### 🏠 **Multi-Tab Navigation**
+#### **Multi-Tab Navigation**
 1. **Home**: Image upload and analysis interface
 2. **How it Works**: Detailed explanation of the AI process
 3. **Safety & Privacy**: Data security and medical disclaimers
 4. **Contact**: Support information and feedback system
 
-#### 🔒 **Security & Privacy**
+#### **Security & Privacy**
 - Zero-storage architecture
 - Local image processing
 - No data transmission to external servers
 - Session-only data retention
 
-#### 📱 **User Experience**
+#### **User Experience**
 - Drag-and-drop file upload
 - Real-time loading animations
 - Professional result cards with color-coded classifications
 - Conditional image display option
 - Analysis history tracking (session-based)
 
-#### ⚕️ **Medical Compliance**
+#### **Medical Compliance**
 - Comprehensive medical disclaimers
 - Professional healthcare guidance
 - Clear limitations and recommendations
@@ -148,7 +148,7 @@ The Streamlit application (`app.py`) provides a professional medical-grade inter
 
 ---
 
-## 🛠️ Technology Stack  
+##  Technology Stack  
 
 ### Core Technologies
 - **Python 3.11+**: Primary programming language
@@ -166,7 +166,7 @@ The Streamlit application (`app.py`) provides a professional medical-grade inter
 
 ---
 
-## 🚀 Getting Started  
+##  Getting Started  
 
 ### Prerequisites
 ```bash
@@ -196,7 +196,7 @@ pip package manager
 
 ---
 
-## 📋 Usage Instructions  
+##  Usage Instructions  
 
 ### For Model Training
 1. Open `SkinCancerClassification.ipynb` in Jupyter Notebook
@@ -213,7 +213,7 @@ pip package manager
 
 ---
 
-## ⚠️ Important Disclaimers  
+## Important Disclaimers  
 
 ### Medical Disclaimer
 - This application is for **informational and screening purposes only**
@@ -229,29 +229,13 @@ pip package manager
 
 ---
 
-## 📞 Support & Contact  
-
-### Technical Support
-- **Email**: support@skinscanai.com
-- **Response Time**: Within 24 hours
-
-### Medical Inquiries
-- **Email**: medical@skinscanai.com
-- **Note**: Not for emergency medical situations
-
-### Feedback & Improvements
-- **Email**: feedback@skinscanai.com
-- Help us improve the platform with your suggestions
-
----
-
-## 📄 License  
+## License  
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🤝 Contributing  
+## Contributing  
 Contributions are welcome! Please read our contributing guidelines and submit pull requests for any improvements.
 
 ---
 
-**⚕️ Always prioritize professional medical consultation over AI analysis results.**
+** Always prioritize professional medical consultation over AI analysis results.**
 
